@@ -9,3 +9,20 @@ Welcome to my Github
 <b>----------------------------------</b>
 </div>
 </pre>
+
+<hr />
+
+<div align="center">
+  <a href="https://antony.cloud">
+    <img src="https://cards.antony.cloud/cloud" style="width: 49%; height: auto;" />
+  </a>
+  <a href="https://antony.contact">
+    <img src="https://cards.antony.cloud/contact" style="width: 49%; height: auto;" />
+  </a>
+  <a href="https://github.com/antony1060">
+    <img src="https://cards.antony.cloud/github" style="width: 49%; height: auto;" />
+  </a>
+  <a href="https://antony.domains">
+    <img src="https://cards.antony.cloud/domains" style="width: 49%; height: auto;" />
+  </a>
+</div>
