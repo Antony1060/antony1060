@@ -26,3 +26,7 @@ Welcome to my Github
     <img src="https://cards.antony.cloud/domains" style="width: 49%; height: auto;" />
   </a>
 </div>
+
+<div align="center">
+  <sub>I use Arch btw. hehe</sub>
+</div>
