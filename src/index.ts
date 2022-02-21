@@ -52,7 +52,7 @@ const centerPad = (text: string, maxLength: number) => {
 const formatTextWithReplacable = (text: string, replacable: Replacable, modFn: (line: string) => string = (it) => it): string => {
     if(!replacable.multiLine)
         return REPLACE_BORDER.start + 
-                centerPad(modFn(text.length > replacable.length ? text.slice(0, replacable.length - 3) + "..." : text), replacable.length) +
+            modFn(centerPad(text.length > replacable.length ? text.slice(0, replacable.length - 3) + "..." : text, replacable.length)) +
                 REPLACE_BORDER.end;
     
     const lines: string[] = text.split(" ").reduce<string[]>((acc, curr) => {
@@ -63,7 +63,7 @@ const formatTextWithReplacable = (text: string, replacable: Replacable, modFn: (
         return acc;
     }, []);
 
-    return lines.map(it => REPLACE_BORDER.start + centerPad(modFn(it), replacable.length) + REPLACE_BORDER.end).join("\n");
+    return lines.map(it => REPLACE_BORDER.start + modFn(centerPad(it, replacable.length)) + REPLACE_BORDER.end).join("\n");
 }
 
 (async () => {
