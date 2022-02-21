@@ -2,10 +2,17 @@
 <pre><div align="center">
 Hi 👋
 Welcome to my Github
-<hr /><b>----------------------------------</b>
+<hr /><b>-------------- Links --------------</b>
 | > <a href="https://antony.cloud">Blog</a>                       |
 | > <a href="https://antony.contact">Contact</a>                    |
 <b>----------------------------------</b>
+
+<b>------------ Latest blog post ------------</b>
+| <a href="https://antony.cloud/posts/en/ftp_sucks">   The File Transfer Protocol...    </a> |
+| ------------------------------------ |
+|  Ugh, FTP. A rant about one of the   |
+|   world's most popular protocols.    |
+<b>------------------------------------------</b>
 </div>
 </pre>
 
