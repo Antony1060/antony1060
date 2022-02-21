@@ -4,7 +4,7 @@
 Hi 👋
 Welcome to my Github
 <hr /><b>----------------------------------</b>
-| > <a href="https://antony.cloud"><font size="+2">Blog</font></a>                       |
+| > <a href="https://antony.cloud">Blog</a>                       |
 | > <a href="https://antony.contact">Contact</a>                    |
 <b>----------------------------------</b>
 </div>
