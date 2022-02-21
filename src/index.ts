@@ -22,6 +22,7 @@ type Replacable = {
 }
 
 type Post = {
+    link: string,
     title: string,
     description: string
 }
@@ -48,9 +49,11 @@ const centerPad = (text: string, maxLength: number) => {
     return nString(Math.floor(diff / 2), " ") + text + nString(Math.ceil(diff / 2), " ");
 }
 
-const formatTextWithReplacable = (text: string, replacable: Replacable): string => {
+const formatTextWithReplacable = (text: string, replacable: Replacable, modFn: (line: string) => string = (it) => it): string => {
     if(!replacable.multiLine)
-        return REPLACE_BORDER.start + centerPad(text.length > replacable.length ? text.slice(0, replacable.length - 3) + "..." : text, replacable.length) + REPLACE_BORDER.end;
+        return REPLACE_BORDER.start + 
+                centerPad(modFn(text.length > replacable.length ? text.slice(0, replacable.length - 3) + "..." : text), replacable.length) +
+                REPLACE_BORDER.end;
     
     const lines: string[] = text.split(" ").reduce<string[]>((acc, curr) => {
         let last = acc.at(-1);
@@ -60,7 +63,7 @@ const formatTextWithReplacable = (text: string, replacable: Replacable): string 
         return acc;
     }, []);
 
-    return lines.map(it => REPLACE_BORDER.start + centerPad(it, replacable.length) + REPLACE_BORDER.end).join("\n");
+    return lines.map(it => REPLACE_BORDER.start + centerPad(modFn(it), replacable.length) + REPLACE_BORDER.end).join("\n");
 }
 
 (async () => {
@@ -83,7 +86,7 @@ const formatTextWithReplacable = (text: string, replacable: Replacable): string 
     let final = template;
 
     for(const title of titles)
-        final = final.replace(replacableToPlaceholder(title), formatTextWithReplacable(latestPost.title, title));
+        final = final.replace(replacableToPlaceholder(title), formatTextWithReplacable(latestPost.title, title, (it) => `<a href="${latestPost.link}">${it}</a>`));
 
     for(const description of descriptions)
         final = final.replace(replacableToPlaceholder(description), formatTextWithReplacable(latestPost.description, description));
