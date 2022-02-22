@@ -8,10 +8,11 @@ Welcome to my Github
 <b>----------------------------------</b>
 
 <b>------------ Latest blog post ------------</b>
-| <a href="https://antony.cloud/posts/en/ftp_sucks">   The File Transfer Protocol...    </a> |
+| <a href="https://antony.cloud/posts/en/webauthn">    WebAuthn with React and Node    </a> |
 | ------------------------------------ |
-|  Ugh, FTP. A rant about one of the   |
-|   world's most popular protocols.    |
+|  A simple introduction to WebAuthN   |
+|  and how it can be implemented with  |
+|           NodeJS and React           |
 <b>------------------------------------------</b>
 </div>
 </pre>
