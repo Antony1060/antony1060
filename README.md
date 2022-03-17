@@ -9,11 +9,9 @@ Welcome to my Github
 <b>----------------------------------</b>
 
 <b>------------ Latest blog post ------------</b>
-| <a href="https://antony.cloud/posts/en/webauthn">    WebAuthn with React and Node    </a> |
+| <a href="https://antony.cloud/posts/en/domains">My unhealthy obsession with domains </a> |
 | ------------------------------------ |
-|  A simple introduction to WebAuthN   |
-|  and how it can be implemented with  |
-|           NodeJS and React           |
+|             I need money             |
 <b>------------------------------------------</b>
 </div>
 </pre>
