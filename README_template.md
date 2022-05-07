@@ -3,9 +3,9 @@
 Hi 👋
 Welcome to my Github
 <hr /><b>-------------- Links --------------</b>
- | > <a href="https://antony.wiki">Resume</a>                     |  
- | > <a href="https://antony.cloud">Blog</a>                       |  
- | > <a href="https://antony.contact">Contact</a>                    |  
+ | > <a href="https://antony.wiki">Resume</a>                     | 
+ | > <a href="https://antony.cloud">Blog</a>                       | 
+ | > <a href="https://antony.contact">Contact</a>                    | 
 <b>----------------------------------</b>
 
 <b>------------ Latest blog post ------------</b>
