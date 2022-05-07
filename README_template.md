@@ -3,15 +3,15 @@
 Hi 👋
 Welcome to my Github
 <hr /><b>-------------- Links --------------</b>
-  | > <a href="https://antony.wiki">Resume</a>                     |  
-  | > <a href="https://antony.cloud">Blog</a>                       |  
-  | > <a href="https://antony.contact">Contact</a>                    |  
+ | > <a href="https://antony.wiki">Resume</a>                     |  
+ | > <a href="https://antony.cloud">Blog</a>                       |  
+ | > <a href="https://antony.contact">Contact</a>                    |  
 <b>----------------------------------</b>
 
 <b>------------ Latest blog post ------------</b>
-{post_title_line|36|single}
-| ------------------------------------ |
-{post_description_lines|36|multi}
+ {post_title_line|36|single} 
+ | ------------------------------------ | 
+ {post_description_lines|36|multi} 
 <b>------------------------------------------</b>
 </div>
 </pre>
@@ -22,8 +22,8 @@ Welcome to my Github
   <a href="https://antony.cloud">
     <img src="https://cards.antony.cloud/cloud?useless=param" style="width: 49%; height: auto;" />
   </a>
-  <a href="https://antony.contact">
-    <img src="https://cards.antony.cloud/contact?useless=param" style="width: 49%; height: auto;" />
+  <a href="https://antony.wiki">
+    <img src="https://cards.antony.cloud/wiki?useless=param" style="width: 49%; height: auto;" />
   </a>
   <a href="https://github.com/antony1060">
     <img src="https://cards.antony.cloud/github?useless=param" style="width: 49%; height: auto;" />
