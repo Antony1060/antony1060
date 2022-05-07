@@ -3,17 +3,17 @@
 Hi 👋
 Welcome to my Github
 <hr /><b>-------------- Links --------------</b>
-  | > <a href="https://antony.wiki">Resume</a>                     |  
-  | > <a href="https://antony.cloud">Blog</a>                       |  
-  | > <a href="https://antony.contact">Contact</a>                    |  
+ | > <a href="https://antony.wiki">Resume</a>                     |  
+ | > <a href="https://antony.cloud">Blog</a>                       |  
+ | > <a href="https://antony.contact">Contact</a>                    |  
 <b>----------------------------------</b>
 
 <b>------------ Latest blog post ------------</b>
-| <a href="https://antony.cloud/posts/en/webauthn">    WebAuthn with React and Node    </a> |
-| ------------------------------------ |
-|  A simple introduction to WebAuthN   |
+ | <a href="https://antony.cloud/posts/en/webauthn">    WebAuthn with React and Node    </a> | 
+ | ------------------------------------ | 
+ |  A simple introduction to WebAuthN   |
 |  and how it can be implemented with  |
-|           NodeJS and React           |
+|           NodeJS and React           | 
 <b>------------------------------------------</b>
 </div>
 </pre>
@@ -24,8 +24,8 @@ Welcome to my Github
   <a href="https://antony.cloud">
     <img src="https://cards.antony.cloud/cloud?useless=param" style="width: 49%; height: auto;" />
   </a>
-  <a href="https://antony.contact">
-    <img src="https://cards.antony.cloud/contact?useless=param" style="width: 49%; height: auto;" />
+  <a href="https://antony.wiki">
+    <img src="https://cards.antony.cloud/wiki?useless=param" style="width: 49%; height: auto;" />
   </a>
   <a href="https://github.com/antony1060">
     <img src="https://cards.antony.cloud/github?useless=param" style="width: 49%; height: auto;" />
