@@ -9,8 +9,8 @@ const IN_PATH = "./README_template.md";
 const OUT_PATH = "./README.md";
 
 const REPLACE_BORDER = {
-    start: "| ",
-    end: " |"
+    start: " | ",
+    end: " | "
 }
 
 type Placeholder = "post_title_line" | "post_description_lines";

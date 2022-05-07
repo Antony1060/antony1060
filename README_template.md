@@ -9,9 +9,9 @@ Welcome to my Github
 <b>----------------------------------</b>
 
 <b>------------ Latest blog post ------------</b>
- {post_title_line|36|single} 
+{post_title_line|36|single}
  | ------------------------------------ | 
- {post_description_lines|36|multi} 
+{post_description_lines|36|multi}
 <b>------------------------------------------</b>
 </div>
 </pre>
