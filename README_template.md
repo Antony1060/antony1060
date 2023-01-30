@@ -29,7 +29,7 @@ Welcome to my Github
     <img src="https://cards.antony.cloud/github?useless=param" style="width: 49%; height: auto;" />
   </a>
   <a href="https://antony.domains">
-    <img src="https://cards.antony.cloud/domains?useless=param" style="width: 49%; height: auto;" />
+    <img src="https://cards.antony.cloud/v3x?useless=param" style="width: 49%; height: auto;" />
   </a>
 </div>
 
