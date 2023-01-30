@@ -13,11 +13,26 @@ jobs:
       - name: "Checkout code"
         uses: actions/checkout@v2
 
-      - name: "Set up NodeJS v18"
+      - name: "Set up Node"
         uses: actions/setup-node@v2
         with:
           node-version: 18
-          cache: 'pnpm'
+
+      - name: Install PNPM
+        uses: pnpm/action-setup@v2
+        with:
+          version: 7.25.0
+
+      - name: Set PNPM store path
+        run: "echo \"PNPM_STORE_PATH=$(pnpm store path)\" >> $GITHUB_ENV"
+
+      - name: Cache PNPM packages
+        uses: actions/cache@v2
+        with:
+          path: ${{ env.PNPM_STORE_PATH }}
+          key: pnpm-${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            pnpm-${{ runner.os }}-
 
       - name: "Install dependencies"
         run: "pnpm install"
