@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - master
-  schedule:
-    - cron: "0 * * * *"
 
 jobs:
   fill:
@@ -23,7 +21,7 @@ jobs:
 
       - name: "Install dependencies"
         run: "yarn"
-      
+
       - name: "Fill README"
         run: "yarn fill"
 
