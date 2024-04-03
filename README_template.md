@@ -16,7 +16,7 @@ Welcome to my Github
 </div>
 </pre>
 
-<hr />
+<!--<hr />
 
 <div align="center">
   <a href="https://antony.cloud">
@@ -31,7 +31,7 @@ Welcome to my Github
   <a href="https://v3x.company">
     <img src="https://cards.antony.cloud/v3x?useless=param" style="width: 49%; height: auto;" />
   </a>
-</div>
+</div>-->
 
 <div align="center">
   <sub>I use Arch btw. hehe</sub>
