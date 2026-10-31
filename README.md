@@ -21,17 +21,17 @@ Welcome to my Github
 <hr />
 
 <div align="center">
-  <a href="https://antony.cloud">
-    <img src="https://cards.antony.cloud/cloud?useless=param" style="width: 49%; height: auto;" />
-  </a>
   <a href="https://antony.wiki">
     <img src="https://cards.antony.cloud/wiki?useless=param" style="width: 49%; height: auto;" />
   </a>
   <a href="https://github.com/antony1060">
     <img src="https://cards.antony.cloud/github?useless=param" style="width: 49%; height: auto;" />
   </a>
-  <a href="https://antony.domains">
-    <img src="https://cards.antony.cloud/domains?useless=param" style="width: 49%; height: auto;" />
+  <a href="https://lovable.dev">
+    <img src="https://cards.antony.cloud/lovable?useless=param" style="width: 49%; height: auto;" />
+  </a>
+  <a href="https://kontestis.ac">
+    <img src="https://cards.antony.cloud/kontestis?useless=param" style="width: 49%; height: auto;" />
   </a>
 </div>
 
