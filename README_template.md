@@ -11,11 +11,19 @@ Welcome to my Github
 
 <hr />
 
-<!-- GitHub strips style attributes; width/align attributes keep the cards in a seamless 2x2 grid.
-     No whitespace between cards in a row, it would show as a gap. -->
 <div align="center">
-<a href="https://antony.wiki"><img src="https://cards.antony.cloud/wiki?useless=param" width="50%" align="top" /></a><a href="https://github.com/antony1060"><img src="https://cards.antony.cloud/github?useless=param" width="50%" align="top" /></a>
-<a href="https://lovable.dev"><img src="https://cards.antony.cloud/lovable?useless=param" width="50%" align="top" /></a><a href="https://kontestis.ac"><img src="https://cards.antony.cloud/kontestis?useless=param" width="50%" align="top" /></a>
+  <a href="https://antony.wiki">
+    <img src="https://cards.antony.cloud/wiki?useless=param" style="width: 49%; height: auto;" />
+  </a>
+  <a href="https://github.com/antony1060">
+    <img src="https://cards.antony.cloud/github?useless=param" style="width: 49%; height: auto;" />
+  </a>
+  <a href="https://lovable.dev">
+    <img src="https://cards.antony.cloud/lovable?useless=param" style="width: 49%; height: auto;" />
+  </a>
+  <a href="https://kontestis.ac">
+    <img src="https://cards.antony.cloud/kontestis?useless=param" style="width: 49%; height: auto;" />
+  </a>
 </div>
 
 <div align="center">
